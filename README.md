@@ -2,7 +2,7 @@
 
 ![learn_on_arm](./img/Learn%20on%20Arm_banner.png)
 
-Welcome to **Generative AI on ARM**, a hands-on course designed to help you optimize generative AI workloads on ARM architectures. Through practical labs and structured lectures, you will learn how to deploy AI models efficiently across different ARM-based environments.
+Welcome to **Generative AI on Arm**, a hands-on course designed to help you optimize generative AI workloads on Arm architectures. Through practical labs and structured lectures, you will learn how to deploy AI models efficiently across different Arm-based environments.
 
 ## Course Structure
 
@@ -11,21 +11,21 @@ This course consists of three hands-on labs and four lectures.
 ### Hands-On Labs
 - **Lab 1**: Optimizing generative AI on mobile devices, such as the Raspberry Pi 5.
 - **Lab 2**: Deploying AI workloads on ARM-based cloud servers, including AWS Graviton.
-- **Lab 3**: Comparing cloud vs. edge inference, analyzing challenges and trade-offs.
+- **Lab 3**: Comparing cloud vs. edge inference, analyzing challenges, and trade-offs.
 
 ### Lecture Series
-Inside the `slides/` folder, you will find four lectures covering the key concepts and challenges in AI inference on ARM:
+Inside the `slides/` folder, you will find four lectures covering the key concepts and challenges in AI inference on Arm:
 
 1. **Challenges Facing Cloud and Edge GenAI Inference** – Understanding the limitations and constraints of AI inference in different environments.
 2. **Generative AI Models** – Exploring model architectures, training methodologies, and deployment considerations.
-3. **ML Frameworks and Optimized Libraries** – A deep dive into AI software stacks, including PyTorch, ONNX Runtime, and ARM-specific optimizations.
+3. **ML Frameworks and Optimized Libraries** – A deep dive into AI software stacks, including PyTorch, ONNX Runtime, and Arm-specific optimizations.
 4. **Optimization for CPU Inference** – Techniques such as quantization, pruning, and leveraging SIMD instructions for faster AI performance.
 
 ## What You'll Learn
 
-You will learn how to optimize AI inference using ARM-specific techniques such as SIMD (SVE, NEON) and low-bit quantization. The course covers practical strategies for running generative AI efficiently on mobile, edge, and cloud-based ARM platforms. You will also explore the trade-offs between cloud and edge deployment, gaining both theoretical knowledge and hands-on skills.
+You will learn how to optimize AI inference using Arm-specific techniques such as SIMD (SVE, NEON) and low-bit quantization. The course covers practical strategies for running generative AI efficiently on mobile, edge, and cloud-based Arm platforms. You will also explore the trade-offs between cloud and edge deployment, gaining both theoretical knowledge and hands-on skills.
 
-By the end of this course, you will have a strong foundation in deploying high-performance AI models on ARM hardware.
+By the end of this course, you will have a strong foundation in deploying high-performance AI models on Arm hardware.
 
 
 ---
@@ -39,7 +39,7 @@ By the end of this course, you will have a strong foundation in deploying high-p
    ```bash
    ./setup.sh
    ```
-2. **Login to a Hugging face account**
+2. **Login to a Hugging Face account**
    ```bash
    huggingface-cli login
    ```
@@ -101,14 +101,14 @@ By the end of this course, you will have a strong foundation in deploying high-p
 
 ### **Lab 3: Comparative Inference Benchmarking on ARM Server and Edge Devices**
 
-1. Follow the setup stpes for `lab1` on your local raspberry pi.
-2. Follow the setup stpes for `lab2` on your raspberry pi, to create and connect to a cloud instance.
-3. Open `lab3.ipynb` to find the instructions for completing the lab 
+1. Follow the setup stpes for `lab1` on your local Raspberry Pi.
+2. Follow the setup stpes for `lab2` on your Raspberry Pi, to create and connect to a cloud instance.
+3. Open `lab3.ipynb` to find the instructions for completing the lab. 
 
 ---
 
 ## **Additional Notes**
-- To complete this course you are required to have access to a Raspberry Pi-5, for the cloud sections, AWS can be utilised. 
+- To complete this course you are required to have access to a Raspberry Pi 5, for the cloud sections, AWS can be utilized. 
 - For Lab 2 and 3 make sure to terminate the EC2 instance when you're done to avoid unnecessary charges.
 
 **Happy learning!**
